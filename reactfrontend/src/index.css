@@ -1,0 +1,54 @@
+body{
+    background-color: #292b2c;
+}
+.jumbotron{
+    color: #f9f9f9;
+    background-color: #1d1e1f;
+}
+.titile{
+    color: #f9f9f9;
+    margin: 50px;
+
+    
+
+}
+.buy{
+    font-weight: bold ;
+    text-transform:capitalize;
+}
+.abc{
+
+    flex: 1;
+    flex-direction: row;
+    background-color: aqua;
+}
+.op{
+    display: inline;
+    background-color: rebeccapurple;
+}
+
+.card-header{
+    color: #f9f9f9;
+    font-weight: 500;
+    justify-content: center;
+    text-align: center;
+}
+
+.des{
+    text-align: center;
+    /* background-color: red !important; */
+}
+.des:hover{
+    font-weight: bold !important;
+}
+
+@media only screen and (max-width: 798px) {
+   .sodha{
+      display: block;
+      flex-direction: column !important;
+   }
+  }
+
+  .signup{
+      justify-content: center;
+  }
